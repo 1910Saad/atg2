@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Animation Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="svg" href="assets/svg with paths.svg">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+    </style>
+</head>
+<body >
+    <div class="container-fluid" style="width: 100%;">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+            
+                <div class="carousel-item active">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgb(108, 12, 146); width: 45%;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    
+                                    <span class="main-heading" style="font-size: 2.5em;">25M+ Plays</span><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 90px;">on appstore & </span><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 80px;">google play store</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <img src="assets/world-communication-awards-for-best-digital-experience.png" alt="" height="50px">
+                                    <h2>ABC 123</h2>
+                                    <p>We are the best <br> web development company <br>in the world</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background-color: rgb(255, 255, 255); width: 55%;">
+                            <div class="images">
+                                <div class="row" style="display: flex; justify-content: center; padding-top: 75px; padding-bottom: 75px; padding-right: 10px;">
+                                    <div class="col-md-4">
+                                        <img src="assets/nexgtv-entertainment-mobile-app-development.png" alt="" height="400px">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/nexgtv-mobile-app-ui-design.png" alt="" height="400px">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgb(102, 46, 253); width: 45%;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    <span class="pre-heading" style="font-size: 1em;">The Next Big</span><br>
+                                    <span class="main-heading" style="font-size: 2.5em;">Blockchain</span><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 100px;">Revolution</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <h2>ABC 234</h2>
+                                    <p>We are the best <br> web development company <br>in the world</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">Coming Soon</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background-color: rgb(50, 47, 110); width: 55%;">
+                            <div class="images">
+                                <div class="row" style="padding-left: 30px; padding-bottom: 65px;">
+                                    <div class="col">
+                                        <img src="assets/veme-app-ui-design.png" alt="phone-mockup" height="250px" style="padding-left: 290px;">
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-left: 30px; justify-content: baseline;">
+                                    <div class="col">
+                                        <img src="assets/veme-blockchain-app-developed.png" alt="" height="250px" style="padding-left: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgb(24, 52, 124); width: 45%;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    <span class="pre-heading" style="font-size: 1em;">Powered by advance</span><br>
+                                    <img src="assets/nasa-mobile-app.png" alt="" height="55px" width="202px"><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 125px;">algorithm</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <h2>ABC 345</h2>
+                                    <p>We are the best <br> web development company <br>in the world</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">Coming Soon</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background-color: rgb(44, 62, 151); width: 55%;">
+                            <div class="images">
+                                <div class="row" style="padding-left: 30px; padding-bottom: 60px;">
+                                    <div class="col">
+                                        <img src="assets/measure-total-body-weight-through-fitness-app.png" alt="phone-mockup" height="250px" style="padding-left: 290px;">
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-left: 100px;">
+                                    <div class="col">
+                                        <img src="assets/nasa-fitness-tracking-mobile-app.png" alt="" height="250px" style="padding-left: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgb(8, 23, 60); width: 45%;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    <span class="pre-heading" style="font-size: 1em;">Redefining</span><br>
+                                    <span class="main-heading" style="font-size: 2.5em;">UX Strategy</span><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 100px;">and UI design</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <h2>ABC 456</h2>
+                                    <p>We are the best <br> web development company <br>in the world</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background-color: rgb(38, 36, 36); width: 55%;">
+                            <div class="images">
+                                <div class="col d-flex justify-content-between">
+                                    <img src="assets/pizza_box.png" alt="pizza-box" height="100px" width="200px">
+                                    <img src="assets/dominos-bread.png" alt="bread" height="70px" style="padding-right: 50px;">
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/ux-strategy-for-mobile-app-devlopment.png" alt="phone-mockup" height="250px" style="padding-left: 200px;">
+                                    </div>
+                                </div>
+                                <div class="row d-flex align-items-baseline justify-content-between">
+                                    <div class="col">
+                                        <img src="assets/domi-img1.png" alt="" height="220px" style="padding-left: 20px;">
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/dominos-bread1.png" alt="" height="90px">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgb(60, 104, 214); width: 45%;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    <span class="pre-heading" style="font-size: 1em;">Text Headline</span><br>
+                                    <span class="main-heading" style="font-size: 2em;">Text Headline</span><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 82px;">Footer headline</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <h2>ABC 567</h2>
+                                    <p>We are the best <br> web development company <br>in the world</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background-color: rgb(74, 194, 215); width: 55%;">
+                            <div class="images">
+                                <div class="row">
+                                    <div class="col-6 col-sm-3 d-flex" style="padding-left: 30px;"> 
+                                        <img src="assets/karavan-social-networking-app-screen.png" alt="" height="207px">
+                                    </div>
+                                    <div class="col-6 col-sm-3 d-flex" style="padding-left: 30px;">
+                                        <img src="assets/social-networking-app-case-study.png" alt="" height="207px">
+                                    </div>
+                                  
+                                    <div class="w-100"></div>
+                                  
+                                    <div class="col-6 col-sm-3 d-flex" style="padding-left: 30px; padding-top: 150px;">
+                                        <img src="assets/karavan_2.png" alt="" height="206px">
+                                    </div>
+                                    <div class="col-6 col-sm-3 d-flex" style="padding-left: 30px; padding-top: 150px;">
+                                        <img src="assets/karavan-social-networking-app-screen-2.png" alt="" height="207px">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgb(4, 48, 161); width: 45%;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    <span class="pre-heading" style="font-size: 0.7em;">Developing ERP Solution for</span><br>
+                                    <span class="main-heading" style="font-size: 2em;">Text Headline</span><br>
+                                    <span class="post-heading" style="font-size: 0.7em; padding-left: 82px;">in furniture industry</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <h2>ABC 678</h2>
+                                    <p>Best since 2017 <br> We offer wide range of <br> web development and app development</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background: url(assets/interior.jpg) center center / cover no-repeat; width: 55%;">
+                            <div class="images">
+                                <img src="assets/erp-app-development-service.png" alt="" style="width: 100%;">
+                            </div>
+                        </section>
+                    </div>
+                </div>    
+        
+                <div class="carousel-item">
+                    <div class="slide d-none d-md-flex" style="width: 100%; overflow: hidden;">
+                        <section id="section1" style="color: white; background-color: rgba(59, 146, 61, 0.986); width: 45%; overflow: hidden;">
+                            <div class="main-title" style="padding-top:40px; justify-content: flex-end; display: flex;">
+                                <div class="title" style="background: url(assets/svg\ with\ paths.svg) center center / cover no-repeat; padding-top: 52px; padding-bottom: 52px; padding-right: 35px;">
+                                    <span class="pre-heading" style="font-size: 1em;">Biggest Classifieds</span><br>
+                                    <span class="main-heading" style="font-size: 2.5em;">East Asia</span><br>
+                                    <span class="post-heading" style="font-size: 1em; padding-left: 100px;">countries</span>
+                                </div>
+                            </div>
+                            <div class="case-study" style="padding-left: 50px; padding-top: 80px; padding-bottom: 50px;">
+                                <div class="sub-title">
+                                    <h2>ABC 23478</h2>
+                                    <p>We are the best <br> web development company <br> in the world</p>
+                                    <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">Coming Soon</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section2" style="background-color: rgb(101, 175, 101); width: 55%; overflow: hidden;">
+                            <div class="images" style="height: 100%;">
+                                <div class="row" style="height: 100%;">
+                                    <div class="col-sm d-flex" style="align-items: flex-end; justify-content: flex-end;">
+                                        <img src="assets/melltoo-img1.png" alt="" style="height: 360px;">
+                                    </div>
+                                    <div class="col-sm d-flex" style="align-items: flex-end; justify-content: flex-start;"> 
+                                        <img src="assets/melltoo-img2.png" alt="" style="height: 380px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators d-md-none">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel2" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="mobile-slide d-md-none" style="width: 100%; flex-wrap: wrap;">
+                            <section id="section1" style="background-color: rgb(255, 255, 255); width: 100%; height: 50%; display: flex; justify-content: center; overflow: hidden;">
+                               <div class="images d-flex">
+                                   <div class="img-fluid d-flex">
+                                       <img src="assets/nexgtv-entertainment-mobile-app-development.png" alt="" height="auto" width="120px">
+                                       <img src="assets/nexgtv-mobile-app-ui-design.png" alt="" height="auto" width="120px">
+                                   </div>
+                               </div>
+                           </section>
+                           <section id="section2" style="color: white; background-color: rgb(108, 12, 146); width: 100%; height: 50%; overflow: hidden;">
+                               <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                   <div class="sub-title">
+                                       <img src="assets/world-communication-awards-for-best-digital-experience.png" alt="" height="50px">
+                                       <h2>ABC 123</h2>
+                                       <p>This is the sample text for ABC 123</p>
+                                       <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                   </div>
+                               </div>
+                           </section>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <div class="mobile-slide d-md-none" style="width: 100%; flex-wrap: wrap;">
+                            <section id="section1" style="background-color: rgb(50, 47, 110);  width: 100%; height: 50%; display: flex; justify-content: center; overflow: hidden;">
+                                <div class="images d-flex">
+                                    <div class="img-fluid d-flex">
+                                        <img src="assets/veme-blockchain-app-developed.png" alt="" height="auto" width="120px">
+                                        <img src="assets/veme-app-ui-design.png" alt="phone-mockup" height="auto" width="120px">                   
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="section2" style="color: white; background-color: rgb(102, 46, 253); width: 100%; overflow: hidden;">
+                                <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                    <div class="sub-title">
+                                        <h2>ABC 234</h2>
+                                        <p>This is the sample text for ABC 234</p>
+                                        <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">Coming Soon</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <div class="mobile-slide d-md-none" style="width: 100%; flex-wrap: wrap;">
+                            <section id="section1" style="background-color: rgb(44, 62, 151); width: 100%;  height: 50%; display: flex; justify-content: center; overflow: hidden;">
+                                <div class="images d-flex">
+                                    <div class="img-fluid d-flex">
+                                        <img src="assets/measure-total-body-weight-through-fitness-app.png" alt="phone-mockup" height="auto" width="100px">
+                                        <img src="assets/nasa-fitness-tracking-mobile-app.png" alt="" height="auto" width="120px">
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="section2" style="color: white; background-color: rgb(24, 52, 124); width: 100%; overflow: hidden;">
+                                <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                    <div class="sub-title">
+                                        <h2>ABC 345</h2>
+                                        <p>This is the sample text for ABC 345</p>
+                                        <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">Coming Soon</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <div class="mobile-slide d-md-none" style="width: 100%; flex-wrap: wrap;">
+                            <section id="section1" style="background-color: rgb(38, 36, 36); width: 100%; height: 50%; display: flex; justify-content: center; overflow: hidden;">
+                                <div class="images d-flex">
+                                    <div class="img-fluid d-flex" style="align-items: baseline;">
+                                        <img src="assets/domi-img1.png" alt=""  height="auto" width="100px">
+                                        <img src="assets/ux-strategy-for-mobile-app-devlopment.png" alt="" height="auto" width="100px">
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="section2" style="color: white; background-color: rgb(8, 23, 60); width: 100%; overflow: hidden;">
+                                <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                    <div class="sub-title">
+                                        <h2>ABC 456</h2>
+                                        <p>This is the sample text for ABC 456</p>
+                                        <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <div class="mobile-slide d-md-none" style="width: 100%; flex-wrap: wrap;">
+                            <section id="section1" style="background-color: rgb(74, 194, 215); width: 100%; height: 50%; display: flex; justify-content: center; overflow: hidden;">
+                                <div class="images d-flex">
+                                    <div class="img-fluid d-flex">
+                                        <div class="d-flex">
+                                            <div class="col d-flex">
+                                                <img src="assets/karavan-social-networking-app-screen.png" alt="" height="auto" width="100px">
+                                                <img src="assets/social-networking-app-case-study.png" alt=""height="auto" width="100px">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex" style="align-items: baseline; justify-content: space-between;">
+                                            <div class="col d-flex">
+                                                <img src="assets/karavan_2.png" alt="" height="auto" width="100px">
+                                                <img src="assets/karavan-social-networking-app-screen-2.png" alt="" height="auto" width="100px" style="justify-content: flex-end;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="section2" style="color: white; background-color: rgb(60, 104, 214); width: 100%; overflow: hidden;">
+                                <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                    <div class="sub-title">
+                                        <h2>ABC 567</h2>
+                                        <p>This is the sample text for ABC 567</p>
+                                        <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <div class="mobile-slide d-md-none" style="width: 100%; flex-wrap: wrap; overflow: hidden;">
+                            <section id="section1" style="background: url(assets/interior.jpg) center center / cover no-repeat; width: 100%; height: auto;">
+                                <div class="images d-flex">
+                                    <img src="assets/erp-app-development-service.png" alt="" style="width: auto; height: 150px;">
+                                </div>
+                            </section>
+                            <section id="section2" style="color: white; background-color: rgb(4, 48, 161); width: 100%; height: 50%; overflow: hidden;">
+                                <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                    <div class="sub-title">
+                                        <h2>ABC 678</h2>
+                                        <p>This is the sample text for ABC 678</p>
+                                        <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">View Case Study</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <div class="mobile-slide d-md-none" style="width: 100%; overflow: hidden; flex-wrap: wrap;">
+                            <section id="section1" style="background-color: rgb(101, 175, 101);  width: 100%; height: 50%; display: flex; justify-content: center; overflow: hidden;">
+                                <div class="images d-flex" style="height: 100%;">
+                                    <div class="img-fluid d-flex" style="align-items: baseline;">
+                                        <img src="assets/melltoo-img1.png" alt="" height="auto" width="100px">
+                                        <img src="assets/melltoo-img2.png" alt="" height="auto" width="100px">
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="section2" style="color: white; background-color: rgba(59, 146, 61, 0.986); width: 100%; overflow: hidden;">
+                                <div class="case-study" style="padding-left: 10px; padding-top: 5px; padding-bottom: 50px;">
+                                    <div class="sub-title">
+                                        <h2>ABC 23478</h2>
+                                        <p>We are the best <br> web development company <br> in the world</p>
+                                        <button style="background-color: transparent; color: white; padding: 10px; border-radius: 25px; border-style: solid; border-color: white;">Coming Soon</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev d-md-none" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-md-none" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </div>
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+
+    const myCarouselElement = document.querySelector('#carouselExampleFade')
+    const myCarouselElement2 = document.querySelector('#carouselExampleIndicators')
+    
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 5000,
+      touch: false
+    })
+
+    const carousel2 = new bootstrap.Carousel(myCarouselElement2, {
+      interval: 5000,
+      touch: false
+    })
+
+    function applyResponsiveStyles() {
+        const width = window.innerWidth();
+
+        if (width >=768) 
+        {
+            document.getElementsByClassName('slide').style.display = "flex"
+        }
+    }
+
+    window.addEventListener('resize', applyResponsiveStyles);
+    document.addEventListener('DOMContentLoaded', applyResponsiveStyles);
+</script>
+</html>
